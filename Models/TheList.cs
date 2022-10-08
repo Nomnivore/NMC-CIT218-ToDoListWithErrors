@@ -9,6 +9,8 @@ namespace ToDoList.Models
     public class TheList
     {
         public int ID { get; set; }
+
+        [Required]
         public string Description { get; set; }
 
         [Display(Name = "Created Date")]
